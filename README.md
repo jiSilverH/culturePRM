@@ -313,7 +313,7 @@ Example output from `generate_traces_rao_prompt.py`:
 
 ## Notes
 
-- Run scripts from the repository root: `/Users/jieun/Documents/culturePRM`.
+- Run scripts from the repository root
 - vLLM-based scripts assume an available GPU environment.
 - `step2_score_norm.py` and `step4_generate_traces.py` support resume behavior when the output file already exists.
 - PRM evaluation splits reasoning traces into sentence-level steps and aggregates completion scores with `min`, `mean`, or `last`.
